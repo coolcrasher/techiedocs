@@ -7,3 +7,6 @@ theme:
   palette:
     primary: 'green'
     accent: 'green'
+  logo:
+    icon: 'description'
+  
