@@ -1,1 +1,9 @@
+# Project Information
 site_name: Coolcrasher TechDocs
+
+# Configuration 
+theme:
+  name: 'material'
+  palette:
+    primary: 'green'
+    accent: 'green'
