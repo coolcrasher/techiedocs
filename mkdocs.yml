@@ -1,5 +1,9 @@
 # Project Information
 site_name: Coolcrasher TechDocs
+pages:
+    - Home: index.md
+    - Mkdocs: aboutMkdocs.md
+
 
 # Configuration 
 theme:
