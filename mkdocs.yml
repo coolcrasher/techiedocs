@@ -2,7 +2,9 @@
 site_name: Coolcrasher TechDocs
 pages:
     - Home: index.md
-    - Mkdocs: aboutMkdocs.md
+    - Mkdocs: guideMkdocs.md
+    - Git: guideGit.md
+    - Quick Links: impLinks.md
 
 
 # Configuration 
@@ -13,4 +15,9 @@ theme:
     accent: 'green'
   logo:
     icon: 'description'
+    
+markdown_extensions:
+  - toc:
+      permalink: true
+      
   
