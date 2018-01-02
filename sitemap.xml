@@ -4,15 +4,31 @@
     
     <url>
      <loc>/</loc>
-     <lastmod>2017-12-29</lastmod>
+     <lastmod>2018-01-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
 
     
     <url>
-     <loc>/aboutMkdocs/</loc>
-     <lastmod>2017-12-29</lastmod>
+     <loc>/guideMkdocs/</loc>
+     <lastmod>2018-01-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/guideGit/</loc>
+     <lastmod>2018-01-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/impLinks/</loc>
+     <lastmod>2018-01-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     

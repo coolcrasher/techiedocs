@@ -21,24 +21,59 @@
             "title": "Project layout"
         }, 
         {
-            "location": "/aboutMkdocs/", 
-            "text": "Quick Start Guide to MKDOCS\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "location": "/guideMkdocs/", 
+            "text": "Quick start to MKDOCS\n\n\nSetting up MKDOCS\n\n\nThis guide explains how to get started with Setting up MKDOCS in your windows PC.\n\n\nCheck if Python, PIP installed\n\n\nCheck if python and pip are already installed in your PC.\nYou can enter following commands in windows command prompt (CMD) to make the check.\n\n\npython --version\n\n\n\n\nResult: \nPython 2.7.2\n\n\npip --version\n\n\n\n\nResult: \npip 1.5.2\n\n\nIf python and pip are not installed in the system, your first duty is to install python \nand then pip. Later add the paths of Python installation directory (default is \nC:\\Python27\n)\nand Python installation's script (default is \nC:\\Python27\\Scripts\n)\ndirectory to Windows \nPATH\n Environmental Variable. So that you can run Python and pip \nfrom any location in windows CMD without referring to the full installation path name always.\n\n\nYou can get clear instructions \nhere\n.\n\n\nYou can later upgrade pip to its latest version by running below command in CMD:\n\n\npip install --upgrade pip\n\n\n\n\nInstall MKDOCS\n\n\nOnce python and pip are installed in your pc, you can go ahead with MKDOCS package installation\nusing below command:\n\n\npip install mkdocs\n\n\n\n\nYou can check the installation of MKDOCS by running below command:\n\n\nmkdocs --version\n\n\n\n\nResult: \nmkdocs, version 0.15.3\n\n\nI have used Materials theme for my MKDOCS website. It can be installed using pip by running below command:\n\n\npip install mkdocs-material\n\n\n\n\nGetting Started\n\n\nIn windows CMD go to the folder where you want to create a new project. Once you are there, you can simply \ncreate the project (project name = \nmy-project\n) by running below command:\n\n\nmkdocs new my-project\n\n\n\n\nThis creates your project with following file structure:\n\n\n\nMkDocs comes with a built-in dev-server to preview your documentation on the go as you work. \nFor this, make sure you're in the same folder as the mkdocs.yml file inside your project, \nand then start the server by running the following command:\n\n\nmkdocs serve\n\n\n\n\nAs a result you would get following message once you run the command in CMD.\n\n\nINFO    -  Building documentation...\nINFO    -  Cleaning site directory\n[I 160402 15:50:43 server:271] Serving on http://127.0.0.1:8000\n[I 160402 15:50:43 handlers:58] Start watching changes\n[I 160402 15:50:43 handlers:60] Start detecting changes\n\n\n\n\nOpen up \nhttp://127.0.0.1:8000/\n in your browser, and you'll see the default home page being displayed.\nFor more details on how to configure your static website, you can look into their official website \nhere\n.\nAlso you can customize your static website with Material theme, you can find the details \nhere\n.\n\n\nBackup Source code in GitHub\n\n\nHost website in GitHub", 
             "title": "Mkdocs"
         }, 
         {
-            "location": "/aboutMkdocs/#quick-start-guide-to-mkdocs", 
-            "text": "For full documentation visit  mkdocs.org .", 
-            "title": "Quick Start Guide to MKDOCS"
+            "location": "/guideMkdocs/#quick-start-to-mkdocs", 
+            "text": "", 
+            "title": "Quick start to MKDOCS"
         }, 
         {
-            "location": "/aboutMkdocs/#commands", 
-            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.", 
-            "title": "Commands"
+            "location": "/guideMkdocs/#setting-up-mkdocs", 
+            "text": "This guide explains how to get started with Setting up MKDOCS in your windows PC.", 
+            "title": "Setting up MKDOCS"
         }, 
         {
-            "location": "/aboutMkdocs/#project-layout", 
-            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
-            "title": "Project layout"
+            "location": "/guideMkdocs/#check-if-python-pip-installed", 
+            "text": "Check if python and pip are already installed in your PC.\nYou can enter following commands in windows command prompt (CMD) to make the check.  python --version  Result:  Python 2.7.2  pip --version  Result:  pip 1.5.2  If python and pip are not installed in the system, your first duty is to install python \nand then pip. Later add the paths of Python installation directory (default is  C:\\Python27 )\nand Python installation's script (default is  C:\\Python27\\Scripts )\ndirectory to Windows  PATH  Environmental Variable. So that you can run Python and pip \nfrom any location in windows CMD without referring to the full installation path name always.  You can get clear instructions  here .  You can later upgrade pip to its latest version by running below command in CMD:  pip install --upgrade pip", 
+            "title": "Check if Python, PIP installed"
+        }, 
+        {
+            "location": "/guideMkdocs/#install-mkdocs", 
+            "text": "Once python and pip are installed in your pc, you can go ahead with MKDOCS package installation\nusing below command:  pip install mkdocs  You can check the installation of MKDOCS by running below command:  mkdocs --version  Result:  mkdocs, version 0.15.3  I have used Materials theme for my MKDOCS website. It can be installed using pip by running below command:  pip install mkdocs-material", 
+            "title": "Install MKDOCS"
+        }, 
+        {
+            "location": "/guideMkdocs/#getting-started", 
+            "text": "In windows CMD go to the folder where you want to create a new project. Once you are there, you can simply \ncreate the project (project name =  my-project ) by running below command:  mkdocs new my-project  This creates your project with following file structure:  MkDocs comes with a built-in dev-server to preview your documentation on the go as you work. \nFor this, make sure you're in the same folder as the mkdocs.yml file inside your project, \nand then start the server by running the following command:  mkdocs serve  As a result you would get following message once you run the command in CMD.  INFO    -  Building documentation...\nINFO    -  Cleaning site directory\n[I 160402 15:50:43 server:271] Serving on http://127.0.0.1:8000\n[I 160402 15:50:43 handlers:58] Start watching changes\n[I 160402 15:50:43 handlers:60] Start detecting changes  Open up  http://127.0.0.1:8000/  in your browser, and you'll see the default home page being displayed.\nFor more details on how to configure your static website, you can look into their official website  here .\nAlso you can customize your static website with Material theme, you can find the details  here .", 
+            "title": "Getting Started"
+        }, 
+        {
+            "location": "/guideMkdocs/#backup-source-code-in-github", 
+            "text": "", 
+            "title": "Backup Source code in GitHub"
+        }, 
+        {
+            "location": "/guideMkdocs/#host-website-in-github", 
+            "text": "", 
+            "title": "Host website in GitHub"
+        }, 
+        {
+            "location": "/guideGit/", 
+            "text": "", 
+            "title": "Git"
+        }, 
+        {
+            "location": "/impLinks/", 
+            "text": "Quick Links\n\n\nMKDOCS - Static Site Generator\n\n\n\n\nMKDOCS Official WebSite\n   \n\n\nMaterial Theme for MKDOCS\n  \n\n\nMKDOCS setting up from Sitepoint.com\n\n\n\n\nMarkdown syntax\n\n\n\n\nQuick Tutorial to Markdown\n  \n\n\nQuick Markdown Cheatsheet from Adam\n   \n\n\nMastering Markdown from GitHub", 
+            "title": "Quick Links"
+        }, 
+        {
+            "location": "/impLinks/#quick-links", 
+            "text": "MKDOCS - Static Site Generator   MKDOCS Official WebSite      Material Theme for MKDOCS     MKDOCS setting up from Sitepoint.com   Markdown syntax   Quick Tutorial to Markdown     Quick Markdown Cheatsheet from Adam      Mastering Markdown from GitHub", 
+            "title": "Quick Links"
         }
     ]
 }
